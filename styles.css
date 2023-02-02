@@ -15,3 +15,7 @@ body {
 div {
 	width: 300px;
 }
+
+fieldset {
+	margin: 20px;
+}
