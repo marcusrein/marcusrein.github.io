@@ -8,8 +8,7 @@ h2 {
 
 section h1,
 section h2,
-section p,
-section footer {
+section p {
 	margin: 7px;
 }
 
@@ -56,4 +55,10 @@ img {
 	max-width: 100%;
 	height: auto;
 	margin: 10px;
+}
+
+/* FOOTER */
+
+footer {
+	margin-top: -15px;
 }
