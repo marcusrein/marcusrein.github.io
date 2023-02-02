@@ -12,9 +12,6 @@ section p,
 section footer {
 	margin: 7px;
 }
-/* .header-margin {
-	margin: 5px;
-} */
 
 body {
 	background: radial-gradient(
@@ -24,24 +21,16 @@ body {
 	);
 	text-align: center;
 }
-/* div {
-	width: 300px;
-} */
 
 section {
-	/* background-color: red; */
 	width: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
 fieldset {
-	/* background-color: green; */
-	/* padding-left: auto;
-	padding-right: auto; */
 	margin: 20px;
 }
 figure {
-	/* background-color: pink; */
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -49,6 +38,7 @@ figure {
 
 figcaption {
 	margin: 20px;
+	margin-top: 20px;
 }
 
 a {
