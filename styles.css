@@ -1,0 +1,17 @@
+h1,
+h2,
+p {
+	text-align: center;
+}
+
+body {
+	background: radial-gradient(
+		circle,
+		rgba(34, 193, 195, 1) 0%,
+		rgba(253, 187, 45, 1) 100%
+	);
+	text-align: center;
+}
+div {
+	width: 300px;
+}
