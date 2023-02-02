@@ -1,8 +1,20 @@
-h1,
-h2,
-p {
-	text-align: center;
+h1 {
+	font-size: 30px;
 }
+
+h2 {
+	font-size: 25px;
+}
+
+section h1,
+section h2,
+section p,
+section footer {
+	margin: 7px;
+}
+/* .header-margin {
+	margin: 5px;
+} */
 
 body {
 	background: radial-gradient(
@@ -12,10 +24,45 @@ body {
 	);
 	text-align: center;
 }
-div {
+/* div {
 	width: 300px;
+} */
+
+section {
+	/* background-color: red; */
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+fieldset {
+	/* background-color: green; */
+	/* padding-left: auto;
+	padding-right: auto; */
+	margin: 20px;
+}
+figure {
+	/* background-color: pink; */
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-fieldset {
+figcaption {
 	margin: 20px;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+a:active {
+	color: rgb(192, 211, 250);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
