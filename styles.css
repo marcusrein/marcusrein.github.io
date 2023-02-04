@@ -55,9 +55,9 @@ a:active {
 	color: rgb(192, 211, 250);
 }
 
-.experience {
-	display: flex;
-	display: block;
+.img-hover:hover {
+	transform: scale(1.01);
+	box-shadow: 0 0px 6px 4px rgba(192, 211, 250);
 }
 
 img {
