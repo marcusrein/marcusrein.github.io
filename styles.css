@@ -49,7 +49,7 @@ header h1 {
 .subtitle {
 	font-size: 1.25rem;
 	color: #666;
-	margin-bottom: 24px;
+	margin-bottom: 8px;
 }
 
 /* Contact Info Section */
@@ -266,4 +266,67 @@ footer p {
 	.footer-links {
 		gap: 12px;
 	}
+}
+
+/* Skills Section */
+.skills {
+	margin-bottom: 60px;
+}
+
+.skills-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 32px;
+	background: white;
+	padding: 32px;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.skill-category h3 {
+	font-size: 1.25rem;
+	margin-bottom: 16px;
+	color: #333;
+}
+
+.skill-category ul {
+	list-style: none;
+	padding: 0;
+}
+
+.skill-category li {
+	padding: 8px 0;
+	color: #555;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.skill-category li:last-child {
+	border-bottom: none;
+}
+
+/* Education Section */
+.education {
+	margin-bottom: 60px;
+}
+
+.education-items {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 24px;
+	background: white;
+	padding: 32px;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.education-item h3 {
+	font-size: 1.25rem;
+	color: #333;
+	margin-bottom: 0;
+}
+
+.location {
+	font-size: 1rem;
+	color: #888;
+	margin-bottom: 24px;
 }
